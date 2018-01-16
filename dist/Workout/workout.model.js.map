@@ -1,0 +1,1 @@
+{"version":3,"file":"workout.model.js","sourceRoot":"","sources":["../../src/Workout/workout.model.ts"],"names":[],"mappings":";;AACA,uCAA8E;AAE9E,MAAM,aAAa,GAAW,IAAI,iBAAM,CAAC;IACvC,YAAY,EAAE;QACZ,IAAI,EAAE,iBAAM,CAAC,KAAK,CAAC,QAAQ;QAC3B,QAAQ,EAAE,IAAI;QACd,MAAM,EAAE,IAAI;QACZ,GAAG,EAAC,UAAU;KACf;CACF,CAAC,CAAC;AAEU,QAAA,YAAY,GAAoB,gBAAK,CAAW,SAAS,EAAE,aAAa,CAAC,CAAC"}

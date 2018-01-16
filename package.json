@@ -1,0 +1,30 @@
+{
+  "name": "gym",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.ts",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "dev": "./node_modules/nodemon/bin/nodemon.js",
+    "test": "set NODE_ENV=test&& tsc && mocha dist/**/*.helper.js dist/**/*.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.9",
+    "tslint-config-airbnb": "^5.4.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.0",
+    "@types/mocha": "^2.2.46",
+    "@types/mongodb": "^2.2.18",
+    "@types/mongoose": "^4.7.32",
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0",
+    "ts-node": "^4.1.0",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
+  }
+}
